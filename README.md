@@ -12,14 +12,31 @@ xM+GBCDiV9UvalEX7I1kmPytofa61o/x1VNWJ4KhTTQ=
 -bash-4.1$ python enc_dec.py -d xM+GBCDiV9UvalEX7I1kmPytofa61o/x1VNWJ4KhTTQ=
 welcome1
 
-idm_idstore_credential_username=GPYszhPsa3X59viTDohX9r+ZPZYtopguCzhi2fQHgtM=
-idm_idstore_credential_password=GPYszhPsa3X59viTDohX9kU6Cbvxgmb2srJ3J2k2nWs=
-idm_idstore_ro_pwd=E2Vd5L0J6eVxFgWc6/UqhY3CJSeBm5fCmiMnzAv9Qpo=
-idm_idstore_rw_pwd=x+Saj/1E83Ic6hv42NIW6Y3CJSeBm5fCmiMnzAv9Qpo=
-idm_policystore_credential_username=AW+uHI/8aZEhxowEI0IIonlW7WNB39nksZRl1eOqMuEijVuY1RhGNe3eKpkD06Zh/K2h9rrWj/HVU1YngqFNNA==
-idm_policystore_credential_password=AW+uHI/8aZEhxowEI0IIoqHh24XxXNYv0Z8mJmwilSl7V2obhybzBborfBCnk+tL/K2h9rrWj/HVU1YngqFNNA==
-idm_policystore_ro_pwd=AW+uHI/8aZEhxowEI0IIokdOZ7o4m2YvG32wh/yahYw=
-idm_policystore_rw_pwd=AW+uHI/8aZEhxowEI0IIonqbkDfpexjGOky3RhtH/8Q=
-idm_policystore_keystore_pwd=AW+uHI/8aZEhxowEI0IIokTnN/SqoRwoZfYW94q22D8
+-bash-4.1$ tail faspot.properties
 
+TAS_GSI_BRIDGE_PWD=Welcome1
+TAS_DB_USER_PWD=Welcome1
+TAS_RDC_SYNC_AUTH_USER_PWD=Welcome1
+TAS_SERVICE_MANAGER_AUTH_USER_PWD=Welcome1
+METERING_AUTH_USER_PWD=Welcome1
+SDI_WL_ADMIN_PASSWD=Welcome1
+DB_SYS_USER_PASSWORD=Welcome1
+IDM_BIND_DN_PWD=Welcome1
+EMGC_WL_ADMIN_PASSWD=Welcome1
+SYSMAN_PWD=Welcome1
+
+
+-bash-4.1$ python enc_dec.py -f
+
+-bash-4.1$ tail faspot.properties
+TAS_GSI_BRIDGE_PWD=olZhubTobuBsD9SET60e8GAV6Yg2qLYR4NNljvj2nLY=
+TAS_DB_USER_PWD=mI8gVji6jcEo93qDDJ6enfytofa61o/x1VNWJ4KhTTQ=
+TAS_RDC_SYNC_AUTH_USER_PWD=Pln65cLGL11FgMIJBD49NdZVJJWH/ZrZmA2am5nen9o=
+TAS_SERVICE_MANAGER_AUTH_USER_PWD=SvefRNEqIwNjmJ1l0O64X2WKH3LGrLWGNx0hR3akdSolpZAB+YmrlUcCK01Ejrvt/K2h9rrWj/HVU1YngqFNNA==
+METERING_AUTH_USER_PWD=f5A44EI8cMc7EWuorJRO8yqH3hKzKymeLJkL2/BUpTY=
+SDI_WL_ADMIN_PASSWD=puEIHdWxR1RpRv/dU6OaQ1mClQNKl0xSPoqModpl3CA=
+DB_SYS_USER_PASSWORD=lceWYUOOsvhIbPTqQ3+TfbFfTfgKaBuzRDpFP+R1v40=
+IDM_BIND_DN_PWD=FE5mDyeVS0q7qnsM9cbPZPytofa61o/x1VNWJ4KhTTQ=
+EMGC_WL_ADMIN_PASSWD=NkS/SI3nGUqdZfJExlZgOw1C8E5/HjixVqTj5H92yZc=
+SYSMAN_PWD=u1W/jgHOtLp25e80+aj/vvytofa61o/x1VNWJ4KhTTQ=
 
