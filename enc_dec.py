@@ -102,8 +102,9 @@ if __name__ == "__main__":
 	parser.add_option("-d", "--decode",
                       dest="str_decode",
                       help="Decode Given string")
-	parser.add_option("-f", "--forceencodeconfig",
+	parser.add_option("-f", "--forceencodeconfig",action="store_true",
                       dest="str_encode_config",
+					  default =False,
                       help="Encode Files in config")
 	(options, args) = parser.parse_args()	
 	if options.str_encode:
@@ -112,3 +113,4 @@ if __name__ == "__main__":
 		print Translator().decode_AES(options.str_decode)
 	if options.str_encode_config:
 		EncodeSelected().encrypt_file_wrapper()
+	
