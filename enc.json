@@ -1,0 +1,32 @@
+{
+  "encoding_params": {
+    "block_size": 32,
+    "algorithm": "AES",
+    "secret": "DMENYZEMZBDARJVK9RHLBN3MEIU9V3D5"
+  },
+  "filepaths_keys": [
+    {
+      "filepath": "/home/vkonakal/Python_Test/faspot.properties.passwords",
+      "keys": [
+        "ALL"
+      ]
+    },
+    {
+      "filepath": "/home/vkonakal/Python_Test/faspot.properties",
+      "keys": [
+        "TASDC_WL_ADMIN_PASSWD",
+        "TPM_JMS_DB_USER_PWD",
+        "TAS_GSI_BRIDGE_PWD",
+        "TAS_DB_USER_PWD",
+        "TAS_RDC_SYNC_AUTH_USER_PWD",
+        "TAS_SERVICE_MANAGER_AUTH_USER_PWD",
+        "METERING_AUTH_USER_PWD",
+        "SDI_WL_ADMIN_PASSWD",
+        "DB_SYS_USER_PASSWORD",
+        "IDM_BIND_DN_PWD",
+        "EMGC_WL_ADMIN_PASSWD",
+        "SYSMAN_PWD"
+      ]
+    }
+  ]
+}
