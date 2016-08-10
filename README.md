@@ -2,9 +2,13 @@
 Encode Decode the files
 
 -bash-4.1$ python enc_dec.py -e welcome1
+
 xM+GBCDiV9UvalEX7I1kmPytofa61o/x1VNWJ4KhTTQ=
+
 -bash-4.1$ python enc_dec.py -e welcome1
+
 xM+GBCDiV9UvalEX7I1kmPytofa61o/x1VNWJ4KhTTQ=
+
 -bash-4.1$ python enc_dec.py -d xM+GBCDiV9UvalEX7I1kmPytofa61o/x1VNWJ4KhTTQ=
 welcome1
 
