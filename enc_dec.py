@@ -38,8 +38,8 @@ def read_file_properties(path="enc.json"):
 def fetch_processed_line(line,keylist):
 	if not line:
 		return line + "\n"
-	if  line.split('=',1)[0] in keylist or (len(keylist)==1 and 'ALL' in keylist):
-		return line.split('=',1)[0] + '=' + Translator().encode_AES(line.split('=',1)[0]) + "\n"
+	if  (line.split('=',1)[0] in keylist or (len(keylist)==1 and 'ALL' in keylist)) and (len(line.split("=",1)) >1):
+		return line.split('=',1)[0] + '=' + Translator().encode_AES(line.split('=',1)[1]) + "\n"
 	else:
 		return line + "\n"
 		
@@ -113,4 +113,3 @@ if __name__ == "__main__":
 		print Translator().decode_AES(options.str_decode)
 	if options.str_encode_config:
 		EncodeSelected().encrypt_file_wrapper()
-	
