@@ -1,5 +1,5 @@
 # EncodeDecode
-Encode Decode the files
+Encode Decode the file
 
 -bash-4.1$ python enc_dec.py -e welcome1
 
